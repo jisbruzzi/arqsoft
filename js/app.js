@@ -8,7 +8,7 @@ app.get("/veloz",(req,res)=>{
 app.get("/timeout",(req,res)=>{
     setTimeout(()=>{
         res.send("hola desde timeout js")
-    },1000)
+    },10000)
 })
 
 const PORT = 3000

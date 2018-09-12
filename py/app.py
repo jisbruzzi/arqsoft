@@ -7,7 +7,7 @@ def root():
     return "Hola desde veloz py"
 
 @app.route("/timeout")
-def root():
+def timeout():
     time.sleep(10)
     return "Hola desde timeout py"
 
