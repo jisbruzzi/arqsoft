@@ -11,8 +11,8 @@ app.get("/timeout",(req,res)=>{
     },10000)
 })
 
-const PORT = 3000
+const PORT = 8000
 
-app.listen(PORT,()=>{
+app.listen(PORT,"0.0.0.0",()=>{
     console.log("ESto escuchando en el puerto", PORT)
 })
